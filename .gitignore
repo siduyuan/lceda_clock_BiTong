@@ -1,0 +1,22 @@
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 嘉立创EDA临时/缓存文件（如有）
+*.tmp
+*.bak
+*.log
+
+# Git 快照插件生成的中间文件（如果你使用了 GitSnapshot 扩展）
+.git-snapshot/
+
+# 排除工程自动备份目录（如果有）
+backup/
+*.backup
