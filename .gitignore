@@ -20,3 +20,6 @@ desktop.ini
 # 排除工程自动备份目录（如果有）
 backup/
 *.backup
+
+# 嘉立创EDA 自动备份
+*_backup/
