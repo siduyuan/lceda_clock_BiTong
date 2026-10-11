@@ -1,0 +1,363 @@
+
+(rules PCB Autorouter_PCB1_2026-10-12.dsn
+  (snapAngle 
+    fortyfive_degree
+  )
+  (rule
+    (width 19.74)
+    (clearance 6.03)
+    (clearance 9.87 (type smd_to_turn_gap))
+    (clearance 6.03 (type smd))
+    (clearance 4.02 (type ''))
+    (clearance 4.02 (type "3V3"))
+    (clearance 4.02 (type GND))
+    (clearance 4.02 (type "VCC_OLED"))
+    (clearance 4.02 (type RST))
+    (clearance 4.02 (type SDA))
+    (clearance 4.02 (type SCL))
+    (clearance 4.02 (type ADD))
+    (clearance 4.02 (type MOD))
+    (clearance 4.02 (type SUB))
+    (clearance 4.02 (type SWC))
+    (clearance 4.02 (type SWD))
+    (clearance 4.02 (type B+))
+    (clearance 4.02 (type EN))
+    (clearance 4.02 (type "3V3_I"))
+    (clearance 4.02 (type "GND_I"))
+    (clearance 4.02 (type "3V3_O"))
+    (clearance 4.02 (type "RLED_T"))
+    (clearance 4.02 (type "BLED_T"))
+    (clearance 9.844 (type "board_edge"))
+  )
+  (padstack via0
+    (shape
+      (circle TopLayer 24.0 0.0 0.0)
+    )
+    (shape
+      (circle BottomLayer 24.0 0.0 0.0)
+    )
+  )
+  (via 
+    via0 via0 default
+  )
+  (via 
+    "via0-''" via0 ''
+  )
+  (via 
+    "via0-3V3" via0 "3V3"
+  )
+  (via 
+    "via0-GND" via0 GND
+  )
+  (via 
+    "via0-VCC_OLED" via0 "VCC_OLED"
+  )
+  (via 
+    "via0-RST" via0 RST
+  )
+  (via 
+    "via0-SDA" via0 SDA
+  )
+  (via 
+    "via0-SCL" via0 SCL
+  )
+  (via 
+    "via0-ADD" via0 ADD
+  )
+  (via 
+    "via0-MOD" via0 MOD
+  )
+  (via 
+    "via0-SUB" via0 SUB
+  )
+  (via 
+    "via0-SWC" via0 SWC
+  )
+  (via 
+    "via0-SWD" via0 SWD
+  )
+  (via 
+    "via0-B+" via0 B+
+  )
+  (via 
+    "via0-EN" via0 EN
+  )
+  (via 
+    "via0-3V3_I" via0 "3V3_I"
+  )
+  (via 
+    "via0-GND_I" via0 "GND_I"
+  )
+  (via 
+    "via0-3V3_O" via0 "3V3_O"
+  )
+  (via 
+    "via0-RLED_T" via0 "RLED_T"
+  )
+  (via 
+    "via0-BLED_T" via0 "BLED_T"
+  )
+  (viaRule
+    default via0
+  )
+  (viaRule
+    '' "via0-''"
+  )
+  (viaRule
+    "3V3" "via0-3V3"
+  )
+  (viaRule
+    GND "via0-GND"
+  )
+  (viaRule
+    "VCC_OLED" "via0-VCC_OLED"
+  )
+  (viaRule
+    RST "via0-RST"
+  )
+  (viaRule
+    SDA "via0-SDA"
+  )
+  (viaRule
+    SCL "via0-SCL"
+  )
+  (viaRule
+    ADD "via0-ADD"
+  )
+  (viaRule
+    MOD "via0-MOD"
+  )
+  (viaRule
+    SUB "via0-SUB"
+  )
+  (viaRule
+    SWC "via0-SWC"
+  )
+  (viaRule
+    SWD "via0-SWD"
+  )
+  (viaRule
+    B+ "via0-B+"
+  )
+  (viaRule
+    EN "via0-EN"
+  )
+  (viaRule
+    "3V3_I" "via0-3V3_I"
+  )
+  (viaRule
+    "GND_I" "via0-GND_I"
+  )
+  (viaRule
+    "3V3_O" "via0-3V3_O"
+  )
+  (viaRule
+    "RLED_T" "via0-RLED_T"
+  )
+  (viaRule
+    "BLED_T" "via0-BLED_T"
+  )
+  (class default
+    GND "3V3" "VCC_OLED" RST SUB MOD ADD SDA
+    SCL SWD SWC B+ EN "3V3_I" "GND_I" "3V3_O"
+    "RLED_T" "BLED_T"
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 19.74)
+    )
+    (circuit 
+      (use_layer TopLayer BottomLayer)
+    )
+  )
+  (class ''
+    (clearance_class '')
+    (via_rule '')
+    (rule
+      (width 19.69)
+    )
+    (circuit 
+      (use_layer TopLayer BottomLayer)
+    )
+  )
+  (class "3V3"
+    (clearance_class "3V3")
+    (via_rule "3V3")
+    (rule
+      (width 19.69)
+    )
+    (circuit 
+      (use_layer TopLayer BottomLayer)
+    )
+  )
+  (class GND
+    (clearance_class GND)
+    (via_rule GND)
+    (rule
+      (width 19.69)
+    )
+    (circuit 
+      (use_layer TopLayer BottomLayer)
+    )
+  )
+  (class "VCC_OLED"
+    (clearance_class "VCC_OLED")
+    (via_rule "VCC_OLED")
+    (rule
+      (width 19.69)
+    )
+    (circuit 
+      (use_layer TopLayer BottomLayer)
+    )
+  )
+  (class RST
+    (clearance_class RST)
+    (via_rule RST)
+    (rule
+      (width 19.69)
+    )
+    (circuit 
+      (use_layer TopLayer BottomLayer)
+    )
+  )
+  (class SDA
+    (clearance_class SDA)
+    (via_rule SDA)
+    (rule
+      (width 19.69)
+    )
+    (circuit 
+      (use_layer TopLayer BottomLayer)
+    )
+  )
+  (class SCL
+    (clearance_class SCL)
+    (via_rule SCL)
+    (rule
+      (width 19.69)
+    )
+    (circuit 
+      (use_layer TopLayer BottomLayer)
+    )
+  )
+  (class ADD
+    (clearance_class ADD)
+    (via_rule ADD)
+    (rule
+      (width 19.69)
+    )
+    (circuit 
+      (use_layer TopLayer BottomLayer)
+    )
+  )
+  (class MOD
+    (clearance_class MOD)
+    (via_rule MOD)
+    (rule
+      (width 19.69)
+    )
+    (circuit 
+      (use_layer TopLayer BottomLayer)
+    )
+  )
+  (class SUB
+    (clearance_class SUB)
+    (via_rule SUB)
+    (rule
+      (width 19.69)
+    )
+    (circuit 
+      (use_layer TopLayer BottomLayer)
+    )
+  )
+  (class SWC
+    (clearance_class SWC)
+    (via_rule SWC)
+    (rule
+      (width 19.69)
+    )
+    (circuit 
+      (use_layer TopLayer BottomLayer)
+    )
+  )
+  (class SWD
+    (clearance_class SWD)
+    (via_rule SWD)
+    (rule
+      (width 19.69)
+    )
+    (circuit 
+      (use_layer TopLayer BottomLayer)
+    )
+  )
+  (class B+
+    (clearance_class B+)
+    (via_rule B+)
+    (rule
+      (width 19.69)
+    )
+    (circuit 
+      (use_layer TopLayer BottomLayer)
+    )
+  )
+  (class EN
+    (clearance_class EN)
+    (via_rule EN)
+    (rule
+      (width 19.69)
+    )
+    (circuit 
+      (use_layer TopLayer BottomLayer)
+    )
+  )
+  (class "3V3_I"
+    (clearance_class "3V3_I")
+    (via_rule "3V3_I")
+    (rule
+      (width 19.69)
+    )
+    (circuit 
+      (use_layer TopLayer BottomLayer)
+    )
+  )
+  (class "GND_I"
+    (clearance_class "GND_I")
+    (via_rule "GND_I")
+    (rule
+      (width 19.69)
+    )
+    (circuit 
+      (use_layer TopLayer BottomLayer)
+    )
+  )
+  (class "3V3_O"
+    (clearance_class "3V3_O")
+    (via_rule "3V3_O")
+    (rule
+      (width 19.69)
+    )
+    (circuit 
+      (use_layer TopLayer BottomLayer)
+    )
+  )
+  (class "RLED_T"
+    (clearance_class "RLED_T")
+    (via_rule "RLED_T")
+    (rule
+      (width 19.69)
+    )
+    (circuit 
+      (use_layer TopLayer BottomLayer)
+    )
+  )
+  (class "BLED_T"
+    (clearance_class "BLED_T")
+    (via_rule "BLED_T")
+    (rule
+      (width 19.69)
+    )
+    (circuit 
+      (use_layer TopLayer BottomLayer)
+    )
+  )
+)

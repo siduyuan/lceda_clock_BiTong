@@ -1,0 +1,474 @@
+(PCB "PCB1"
+  (parser
+    (host_cad "EasyEDA Pro")
+    (host_version "4.1.60")
+  )
+  (resolution mil 1000)
+  (structure
+    (boundary(path signal 0 0 196.85 0 3740.16 3.78 3778.56 14.98 3815.49 33.18 3849.52 57.66 3879.35 87.49 3903.83 121.52 3922.02 158.45 3933.23 196.85 3937.01 3740.16 3937.01 3778.56 3933.23 3815.49 3922.02 3849.52 3903.83 3879.35 3879.35 3903.83 3849.52 3922.02 3815.49 3933.23 3778.56 3937.01 3740.16 3937.01 196.85 3933.23 158.45 3922.02 121.52 3903.83 87.49 3879.35 57.66 3849.52 33.18 3815.49 14.98 3778.56 3.78 3740.16 0 196.85 0 158.45 3.78 121.52 14.98 87.49 33.18 57.66 57.66 33.18 87.49 14.98 121.52 3.78 158.45 0 196.85 )
+    )
+    (via via0
+    )
+    (grid via   0.25)
+    (grid wire   0.25)
+    (grid place   0.25)
+    (rule(clear 6.03))
+    (rule(clear 6.03 (type default_smd)))
+    (rule(clear 6.03 (type smd_smd)))
+    (rule(width 19.74))
+    (layer TopLayer
+      (type signal)
+    )
+    (layer BottomLayer
+      (type signal)
+    )
+  )
+
+  (placement
+    (component u1
+      (place u1 0 0 front 0
+      )
+    )
+  )
+  (library
+    (image u1
+      (pin p02657682112f489 02657682112f489 714.53 458.5)
+      (pin p9632a658c7a1474 9632a658c7a1474 1320.35 295.59)
+      (pin pf21248d2c52690c f21248d2c52690c 593.5 1043.5)
+      (pin p1721f14fc2d9e99 1721f14fc2d9e99 408.5 1023.82)
+      (pin pf21248d2c52690c 494708c40f42e85 258.5 1998.5)
+      (pin pf21248d2c52690c 8932f922f947040 563.5 2003.5)
+      (pin pf0d542989f9cf981 f0d542989f9cf981 349.53 828.5)
+      (pin pf0d542989f9cf981 9584d2dfd918ea5 349.53 368.5)
+      (pin p9632a658c7a1474 59690999c7309d1 926.65 295.59)
+      (pin p02657682112f489 3684c45745c5d70 709.53 753.5)
+      (pin pf21248d2c52690c 1f0eab3e8765fbd 228.5 1043.5)
+      (pin p9447bc0b234c28be7 9447bc0b234c28be7 1818.5 3057.09)
+      (pin p9447bc0b234c28be7 9447bc0b234c28be8 1918.5 2927.17)
+      (pin p9447bc0b234c28be7 9447bc0b234c28be9 2018.5 3057.09)
+      (pin p9447bc0b234c28be7 9447bc0b234c28be10 2118.5 2927.17)
+      (pin p9447bc0b234c28be7 19ad77bf29c26c3e7 1818.5 2348.42)
+      (pin p9447bc0b234c28be7 19ad77bf29c26c3e8 1918.5 2218.5)
+      (pin p9447bc0b234c28be7 19ad77bf29c26c3e9 2018.5 2348.42)
+      (pin p9447bc0b234c28be7 19ad77bf29c26c3e10 2118.5 2218.5)
+      (pin p139f47b12aabdfce12 139f47b12aabdfce12 2379.93 1151.58)
+      (pin p139f47b12aabdfce12 139f47b12aabdfce13 2738.19 1151.57)
+      (pin p139f47b12aabdfce12 139f47b12aabdfce14 2379.93 974.41)
+      (pin p139f47b12aabdfce12 139f47b12aabdfce15 2738.19 974.41)
+      (pin p139f47b12aabdfce12 8d1954dd4ff9ec5e12 1198.82 1151.58)
+      (pin p139f47b12aabdfce12 8d1954dd4ff9ec5e13 1557.08 1151.57)
+      (pin p139f47b12aabdfce12 8d1954dd4ff9ec5e14 1198.82 974.41)
+      (pin p139f47b12aabdfce12 8d1954dd4ff9ec5e15 1557.08 974.41)
+      (pin p139f47b12aabdfce12 2e90b154f6efac8e12 1789.37 1624.02)
+      (pin p139f47b12aabdfce12 2e90b154f6efac8e13 2147.63 1624.01)
+      (pin p139f47b12aabdfce12 2e90b154f6efac8e14 1789.37 1446.85)
+      (pin p139f47b12aabdfce12 2e90b154f6efac8e15 2147.63 1446.85)
+      (pin pdd8798da14170a8e3 dd8798da14170a8e3 3469.42 971.81)
+      (pin pdd8798da14170a8e3 dd8798da14170a8e4 3469.42 1188.35)
+      (pin pdd8798da14170a8e3 dd8798da14170a8e5 3569.42 971.81)
+      (pin pdd8798da14170a8e3 dd8798da14170a8e6 3569.42 1188.35)
+      (pin pc30c5309b1daa66e15 c30c5309b1daa66e15 1698.5 249.13)
+      (pin pc30c5309b1daa66e15 c30c5309b1daa66e16 1698.5 327.87)
+      (pin pc30c5309b1daa66e15 708cd32b1f5c7a4a15 1953.5 254.13)
+      (pin pc30c5309b1daa66e15 708cd32b1f5c7a4a16 1953.5 332.87)
+      (pin pc30c5309b1daa66e15 391630904f74819215 2203.5 259.13)
+      (pin pc30c5309b1daa66e15 391630904f74819216 2203.5 337.87)
+      (pin p139f47b12aabdfce12 4fab39acaefc731e12 1789.37 1152.09)
+      (pin p139f47b12aabdfce12 4fab39acaefc731e13 2147.63 1152.08)
+      (pin p139f47b12aabdfce12 4fab39acaefc731e14 1789.37 974.92)
+      (pin p139f47b12aabdfce12 4fab39acaefc731e15 2147.63 974.92)
+      (pin pfeacf6af2091a8ce10 feacf6af2091a8ce10 2347.87 3108.5)
+      (pin pfeacf6af2091a8ce10 feacf6af2091a8ce11 2269.13 3108.5)
+      (pin pfeacf6af2091a8ce10 ec20461396990e1e10 2347.87 2808.5)
+      (pin pfeacf6af2091a8ce10 ec20461396990e1e11 2269.13 2808.5)
+      (pin pfeacf6af2091a8ce10 c38f9da1d838d3ae10 3787.87 3148.5)
+      (pin pfeacf6af2091a8ce10 c38f9da1d838d3ae11 3709.13 3148.5)
+      (pin pfeacf6af2091a8ce10 949c143734d0108e10 3787.87 3348.5)
+      (pin pfeacf6af2091a8ce10 949c143734d0108e11 3709.13 3348.5)
+      (pin pfeacf6af2091a8ce10 d3f8fa022174512c10 3787.87 3548.5)
+      (pin pfeacf6af2091a8ce10 d3f8fa022174512c11 3709.13 3548.5)
+      (pin p0960bd856fc44cbe33 0960bd856fc44cbe33 1105.7 2408.5)
+      (pin p0960bd856fc44cbe33 0960bd856fc44cbe34 1105.71 2506.92)
+      (pin p0960bd856fc44cbe33 0960bd856fc44cbe35 881.3 2310.08)
+      (pin p0960bd856fc44cbe33 0960bd856fc44cbe36 881.3 2408.5)
+      (pin p0960bd856fc44cbe33 0960bd856fc44cbe37 881.3 2506.92)
+      (pin p0960bd856fc44cbe33 0960bd856fc44cbe38 1105.71 2310.08)
+      (pin p0960bd856fc44cbe33 9c2d73a009f2b17233 595.7 2398.5)
+      (pin p0960bd856fc44cbe33 9c2d73a009f2b17234 595.71 2496.92)
+      (pin p0960bd856fc44cbe33 9c2d73a009f2b17235 371.3 2300.08)
+      (pin p0960bd856fc44cbe33 9c2d73a009f2b17236 371.3 2398.5)
+      (pin p0960bd856fc44cbe33 9c2d73a009f2b17237 371.3 2496.92)
+      (pin p0960bd856fc44cbe33 9c2d73a009f2b17238 595.71 2300.08)
+      (pin pa3cba8c0c737d21e12 a3cba8c0c737d21e12 1213.74 533.5)
+      (pin pa3cba8c0c737d21e12 a3cba8c0c737d21e13 993.27 533.5)
+      (pin pa3cba8c0c737d21e12 a3cba8c0c737d21e14 1213.74 633.5)
+      (pin pa3cba8c0c737d21e12 a3cba8c0c737d21e15 993.27 633.5)
+      (pin p46652341c64a3c3e8 46652341c64a3c3e8 435.19 2683.5)
+      (pin p46652341c64a3c3e8 46652341c64a3c3e9 521.81 2683.5)
+      (pin p146608696ddd324c8 146608696ddd324c8 1036.81 2693.5)
+      (pin p146608696ddd324c8 146608696ddd324c9 950.19 2693.5)
+      (pin pfeacf6af2091a8ce10 3fbd9fa56269249310 167.87 2848.5)
+      (pin pfeacf6af2091a8ce10 3fbd9fa56269249311 89.13 2848.5)
+      (pin p3a679785e0b92f2e10 3a679785e0b92f2e10 89.13 2688.5)
+      (pin p3a679785e0b92f2e10 3a679785e0b92f2e11 167.87 2688.5)
+      (pin pfeacf6af2091a8ce10 609577d33836ccfe10 2347.87 2548.5)
+      (pin pfeacf6af2091a8ce10 609577d33836ccfe11 2269.13 2548.5)
+      (pin pf23067535bf2b9be4 f23067535bf2b9be4 3341.59 3587.8)
+      (pin pf23067535bf2b9be4 f23067535bf2b9be5 3215.41 3487.8)
+      (pin pf23067535bf2b9be4 f23067535bf2b9be6 3341.59 3387.8)
+      (pin pf23067535bf2b9be4 f23067535bf2b9be7 3215.41 3287.8)
+      (pin pf23067535bf2b9be4 f23067535bf2b9be8 3341.59 3187.8)
+      (pin pf23067535bf2b9be4 f23067535bf2b9be9 3215.41 3087.8)
+      (pin pf23067535bf2b9be4 f23067535bf2b9be10 3341.59 2987.8)
+      (pin pf23067535bf2b9be4 f23067535bf2b9be11 3341.59 2787.8)
+      (pin pf23067535bf2b9be4 f23067535bf2b9be12 3341.59 2587.8)
+      (pin pf23067535bf2b9be4 f23067535bf2b9be13 3341.59 2387.8)
+      (pin pf23067535bf2b9be4 f23067535bf2b9be14 3341.59 2187.8)
+      (pin pf23067535bf2b9be4 f23067535bf2b9be15 3215.41 2887.8)
+      (pin pf23067535bf2b9be4 f23067535bf2b9be16 3215.41 2687.8)
+      (pin pf23067535bf2b9be4 f23067535bf2b9be17 3215.41 2487.8)
+      (pin pf23067535bf2b9be4 f23067535bf2b9be18 3215.41 2287.8)
+      (pin pf23067535bf2b9be4 f23067535bf2b9be19 3341.59 1987.8)
+      (pin pf23067535bf2b9be4 f23067535bf2b9be20 3341.59 1787.8)
+      (pin pf23067535bf2b9be4 f23067535bf2b9be21 3215.41 2087.8)
+      (pin pf23067535bf2b9be4 f23067535bf2b9be22 3215.41 1887.8)
+      (pin pf23067535bf2b9be4 f23067535bf2b9be23 3215.41 1687.8)
+      (pin pf23067535bf2b9be4 d1045584f9071f554 2741.59 3587.8)
+      (pin pf23067535bf2b9be4 d1045584f9071f555 2615.41 3487.8)
+      (pin pf23067535bf2b9be4 d1045584f9071f556 2741.59 3387.8)
+      (pin pf23067535bf2b9be4 d1045584f9071f557 2615.41 3287.8)
+      (pin pf23067535bf2b9be4 d1045584f9071f558 2741.59 3187.8)
+      (pin pf23067535bf2b9be4 d1045584f9071f559 2615.41 3087.8)
+      (pin pf23067535bf2b9be4 d1045584f9071f5510 2741.59 2987.8)
+      (pin pf23067535bf2b9be4 d1045584f9071f5511 2741.59 2787.8)
+      (pin pf23067535bf2b9be4 d1045584f9071f5512 2741.59 2587.8)
+      (pin pf23067535bf2b9be4 d1045584f9071f5513 2741.59 2387.8)
+      (pin pf23067535bf2b9be4 d1045584f9071f5514 2741.59 2187.8)
+      (pin pf23067535bf2b9be4 d1045584f9071f5515 2615.41 2887.8)
+      (pin pf23067535bf2b9be4 d1045584f9071f5516 2615.41 2687.8)
+      (pin pf23067535bf2b9be4 d1045584f9071f5517 2615.41 2487.8)
+      (pin pf23067535bf2b9be4 d1045584f9071f5518 2615.41 2287.8)
+      (pin pf23067535bf2b9be4 d1045584f9071f5519 2741.59 1987.8)
+      (pin pf23067535bf2b9be4 d1045584f9071f5520 2741.59 1787.8)
+      (pin pf23067535bf2b9be4 d1045584f9071f5521 2615.41 2087.8)
+      (pin pf23067535bf2b9be4 d1045584f9071f5522 2615.41 1887.8)
+      (pin pf23067535bf2b9be4 d1045584f9071f5523 2615.41 1687.8)
+      (pin p6b8273180df9a91835 6b8273180df9a91835 3521.14 652.72)
+      (pin p6b8273180df9a91835 6b8273180df9a91836 3521.14 554.29)
+      (pin p6b8273180df9a91835 6b8273180df9a91837 3422.71 652.72)
+      (pin p6b8273180df9a91835 6b8273180df9a91838 3422.71 554.29)
+      (pin p6b8273180df9a91835 6b8273180df9a91839 3324.29 652.72)
+      (pin p6b8273180df9a91835 6b8273180df9a91840 3324.29 554.29)
+      (pin p6b8273180df9a91835 6b8273180df9a91841 3225.86 652.72)
+      (pin p6b8273180df9a91835 6b8273180df9a91842 3225.86 554.29)
+      (pin p87350dbf827a888215 87350dbf827a888215 1929.13 528.5)
+      (pin p87350dbf827a888215 87350dbf827a888216 2007.87 528.5)
+      (pin p8187c8a0739b598a12 8187c8a0739b598a12 2498.5 518.27)
+      (pin p8187c8a0739b598a12 8187c8a0739b598a13 2498.5 738.74)
+      (pin p8187c8a0739b598a12 8187c8a0739b598a14 2398.5 518.27)
+      (pin p8187c8a0739b598a12 8187c8a0739b598a15 2398.5 738.74)
+      (pin p672f5496182a359d 672f5496182a359d 153.5 3783.5)
+      (pin p672f5496182a359d 32b4a302d688654c 3783.5 3783.5)
+      (pin p672f5496182a359d d2397ab26bac7e6 153.5 153.5)
+      (pin p672f5496182a359d 3f74fbd9aa51b24 3783.5 153.5)
+    )
+
+    (padstack via0
+      (shape(circle TopLayer 24))
+      (shape(circle BottomLayer 24))
+    )
+
+    (padstack p02657682112f489
+      (shape(polygon TopLayer 0.1 68.9 59.06 68.9 -59.06 68.9 -59.06 -68.9 -59.06 -68.9 -59.06 -68.9 59.06 -68.9 59.06 68.9 59.06))
+    )
+    (padstack p9632a658c7a1474
+      (shape(polygon BottomLayer 0.1 -19.68 -39.37 -25.05 -39 -30.31 -37.91 -35.37 -36.11 -40.14 -33.64 -44.53 -30.54 -48.46 -26.87 -51.85 -22.7 -54.64 -18.11 -56.78 -13.18 -58.23 -8.01 -58.96 -2.69 -58.96 2.69 -58.23 8.01 -56.78 13.18 -54.64 18.11 -51.85 22.7 -48.46 26.87 -44.53 30.54 -40.14 33.64 -35.37 36.11 -30.31 37.91 -25.05 39 -19.68 39.37 -19.68 39.37 19.69 39.37 19.69 39.37 25.05 39 30.31 37.91 35.37 36.11 40.14 33.64 44.53 30.54 48.46 26.87 51.85 22.7 54.64 18.11 56.78 13.18 58.23 8.01 58.96 2.69 58.96 -2.69 58.23 -8.01 56.78 -13.18 54.64 -18.11 51.85 -22.7 48.46 -26.87 44.53 -30.54 40.14 -33.64 35.37 -36.11 30.31 -37.91 25.05 -39 19.69 -39.37 19.69 -39.37 -19.68 -39.37))
+    )
+    (padstack pf21248d2c52690c
+      (shape(polygon TopLayer 0.1 -59.06 -78.74 -59.06 78.74 -59.06 78.74 59.06 78.74 59.06 78.74 59.06 -78.74 59.06 -78.74 -59.06 -78.74))
+    )
+    (padstack p1721f14fc2d9e99
+      (shape(polygon TopLayer 0.1 -59.06 -59.06 -59.06 59.06 -59.06 59.06 59.06 59.06 59.06 59.06 59.06 -59.06 59.06 -59.06 -59.06 -59.06))
+    )
+    (padstack pf0d542989f9cf981
+      (shape(polygon TopLayer 0.1 39.37 59.06 39.37 -59.06 39.37 -59.06 -39.37 -59.06 -39.37 -59.06 -39.37 59.06 -39.37 59.06 39.37 59.06))
+    )
+    (padstack p9447bc0b234c28be7
+      (shape(polygon TopLayer 0.1 -19.68 -39.37 -19.68 39.37 -19.68 39.37 19.69 39.37 19.69 39.37 19.69 -39.37 19.69 -39.37 -19.68 -39.37))
+    )
+    (padstack p139f47b12aabdfce12
+      (shape(polygon TopLayer 0.1 -45.28 -29.53 -45.28 29.53 -45.28 29.53 45.28 29.53 45.28 29.53 45.28 -29.53 45.28 -29.53 -45.28 -29.53))
+    )
+    (padstack pdd8798da14170a8e3
+      (shape(polygon TopLayer 0.1 -20.08 -49.21 -20.08 49.21 -20.08 49.21 20.08 49.21 20.08 49.21 20.08 -49.21 20.08 -49.21 -20.08 -49.21))
+    )
+    (padstack pc30c5309b1daa66e15
+      (shape(polygon BottomLayer 0.1 -26.57 27.76 26.58 27.76 26.58 27.76 26.58 -27.76 26.58 -27.76 -26.57 -27.76 -26.57 -27.76 -26.57 27.76))
+    )
+    (padstack pfeacf6af2091a8ce10
+      (shape(polygon BottomLayer 0.1 -22.29 -27.11 -22.29 27.11 -22.29 27.11 22.29 27.11 22.29 27.11 22.29 -27.11 22.29 -27.11 -22.29 -27.11))
+    )
+    (padstack p0960bd856fc44cbe33
+      (shape(polygon TopLayer 0.1 -39.37 23.62 39.37 23.62 39.37 23.62 39.37 -23.62 39.37 -23.62 -39.37 -23.62 -39.37 -23.62 -39.37 23.62))
+    )
+    (padstack pa3cba8c0c737d21e12
+      (shape(polygon TopLayer 0.1 62.4 -25 -62.4 -25 -62.4 -25 -62.4 25 -62.4 25 62.4 25 62.4 25 62.4 -25))
+    )
+    (padstack p46652341c64a3c3e8
+      (shape(polygon TopLayer 0.1 19.69 24.61 19.69 -24.61 19.69 -24.61 -19.68 -24.61 -19.68 -24.61 -19.68 24.61 -19.68 24.61 19.69 24.61))
+    )
+    (padstack p146608696ddd324c8
+      (shape(polygon TopLayer 0.1 -19.68 -24.61 -19.68 24.61 -19.68 24.61 19.69 24.61 19.69 24.61 19.69 -24.61 19.69 -24.61 -19.68 -24.61))
+    )
+    (padstack p3a679785e0b92f2e10
+      (shape(polygon BottomLayer 0.1 22.29 27.11 22.29 -27.11 22.29 -27.11 -22.29 -27.11 -22.29 -27.11 -22.29 27.11 -22.29 27.11 22.29 27.11))
+    )
+    (padstack pf23067535bf2b9be4
+      (shape(polygon BottomLayer 0.1 37.5 -20.08 -37.5 -20.08 -37.5 -20.08 -37.5 20.08 -37.5 20.08 37.5 20.08 37.5 20.08 37.5 -20.08))
+    )
+    (padstack p6b8273180df9a91835
+      (shape(circle TopLayer 66.93 0 0))
+      (shape(circle BottomLayer 66.93 0 0))
+    )
+    (padstack p87350dbf827a888215
+      (shape(polygon BottomLayer 0.1 27.76 26.58 27.76 -26.57 27.76 -26.57 -27.76 -26.57 -27.76 -26.57 -27.76 26.58 -27.76 26.58 27.76 26.58))
+    )
+    (padstack p8187c8a0739b598a12
+      (shape(polygon BottomLayer 0.1 25 62.4 25 -62.4 25 -62.4 -25 -62.4 -25 -62.4 -25 62.4 -25 62.4 25 62.4))
+    )
+    (padstack p672f5496182a359d
+      (shape(circle TopLayer 129.92 0 0))
+      (shape(circle BottomLayer 129.92 0 0))
+    )
+  )
+  (network
+    (net GND
+      (pins u1-02657682112f489 u1-9632a658c7a1474 u1-f21248d2c52690c u1-9447bc0b234c28be7 u1-139f47b12aabdfce14 u1-8d1954dd4ff9ec5e14 u1-2e90b154f6efac8e14 u1-dd8798da14170a8e6 u1-c30c5309b1daa66e15 u1-708cd32b1f5c7a4a15 u1-391630904f74819215 u1-4fab39acaefc731e14 u1-a3cba8c0c737d21e12 u1-a3cba8c0c737d21e13 u1-3fbd9fa56269249311 u1-3a679785e0b92f2e10 u1-609577d33836ccfe11 u1-f23067535bf2b9be20 u1-d1045584f9071f555 u1-87350dbf827a888215 u1-8187c8a0739b598a13)
+    )
+    (net 3V3
+      (pins u1-dd8798da14170a8e3 u1-feacf6af2091a8ce10 u1-ec20461396990e1e10 u1-c38f9da1d838d3ae10 u1-949c143734d0108e10 u1-d3f8fa022174512c10 u1-0960bd856fc44cbe36 u1-9c2d73a009f2b17234 u1-46652341c64a3c3e9 u1-f23067535bf2b9be23 u1-d1045584f9071f556 u1-8187c8a0739b598a14)
+    )
+    (net VCC_OLED
+      (pins u1-9447bc0b234c28be8 u1-0960bd856fc44cbe37 u1-146608696ddd324c9 u1-609577d33836ccfe10 u1-d1045584f9071f5515 u1-6b8273180df9a91842)
+    )
+    (net RST
+      (pins u1-2e90b154f6efac8e13 u1-d1045584f9071f557 u1-6b8273180df9a91841 u1-87350dbf827a888216)
+    )
+    (net SUB
+      (pins u1-8d1954dd4ff9ec5e13 u1-c30c5309b1daa66e16 u1-d3f8fa022174512c11 u1-f23067535bf2b9be4 u1-6b8273180df9a91840)
+    )
+    (net MOD
+      (pins u1-708cd32b1f5c7a4a16 u1-4fab39acaefc731e13 u1-949c143734d0108e11 u1-f23067535bf2b9be5 u1-6b8273180df9a91838)
+    )
+    (net ADD
+      (pins u1-139f47b12aabdfce13 u1-391630904f74819216 u1-c38f9da1d838d3ae11 u1-f23067535bf2b9be6 u1-6b8273180df9a91836)
+    )
+    (net SDA
+      (pins u1-9447bc0b234c28be10 u1-feacf6af2091a8ce11 u1-f23067535bf2b9be14 u1-6b8273180df9a91839)
+    )
+    (net SCL
+      (pins u1-9447bc0b234c28be9 u1-ec20461396990e1e11 u1-f23067535bf2b9be18 u1-6b8273180df9a91837)
+    )
+    (net SWD
+      (pins u1-dd8798da14170a8e5 u1-8187c8a0739b598a12)
+    )
+    (net SWC
+      (pins u1-dd8798da14170a8e4 u1-8187c8a0739b598a15)
+    )
+    (net B+
+      (pins u1-59690999c7309d1 u1-3684c45745c5d70 u1-1f0eab3e8765fbd u1-6b8273180df9a91835)
+    )
+    (net EN
+      (pins u1-1721f14fc2d9e99)
+    )
+    (net 3V3_I
+      (pins u1-494708c40f42e85 u1-a3cba8c0c737d21e15)
+    )
+    (net GND_I
+      (pins u1-8932f922f947040)
+    )
+    (net 3V3_O
+      (pins u1-9c2d73a009f2b17233 u1-a3cba8c0c737d21e14)
+    )
+    (net RLED_T
+      (pins u1-46652341c64a3c3e8 u1-3a679785e0b92f2e11)
+    )
+    (net BLED_T
+      (pins u1-146608696ddd324c8 u1-3fbd9fa56269249310)
+    )
+    (class  ''
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 19.69)
+        (clearance 4.02)
+      )
+    )
+    (class 3V3 '3V3'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 19.69)
+        (clearance 4.02)
+      )
+    )
+    (class GND 'GND'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 19.69)
+        (clearance 4.02)
+      )
+    )
+    (class VCC_OLED 'VCC_OLED'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 19.69)
+        (clearance 4.02)
+      )
+    )
+    (class RST 'RST'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 19.69)
+        (clearance 4.02)
+      )
+    )
+    (class SDA 'SDA'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 19.69)
+        (clearance 4.02)
+      )
+    )
+    (class SCL 'SCL'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 19.69)
+        (clearance 4.02)
+      )
+    )
+    (class ADD 'ADD'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 19.69)
+        (clearance 4.02)
+      )
+    )
+    (class MOD 'MOD'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 19.69)
+        (clearance 4.02)
+      )
+    )
+    (class SUB 'SUB'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 19.69)
+        (clearance 4.02)
+      )
+    )
+    (class SWC 'SWC'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 19.69)
+        (clearance 4.02)
+      )
+    )
+    (class SWD 'SWD'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 19.69)
+        (clearance 4.02)
+      )
+    )
+    (class B+ 'B+'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 19.69)
+        (clearance 4.02)
+      )
+    )
+    (class EN 'EN'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 19.69)
+        (clearance 4.02)
+      )
+    )
+    (class 3V3_I '3V3_I'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 19.69)
+        (clearance 4.02)
+      )
+    )
+    (class GND_I 'GND_I'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 19.69)
+        (clearance 4.02)
+      )
+    )
+    (class 3V3_O '3V3_O'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 19.69)
+        (clearance 4.02)
+      )
+    )
+    (class RLED_T 'RLED_T'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 19.69)
+        (clearance 4.02)
+      )
+    )
+    (class BLED_T 'BLED_T'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 19.69)
+        (clearance 4.02)
+      )
+    )
+  )
+
+  (wiring
+  )
+)
