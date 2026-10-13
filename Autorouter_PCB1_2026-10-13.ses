@@ -1,0 +1,65 @@
+(session "Autorouter_PCB1_2026-10-13.ses"
+  (base_design "Autorouter_PCB1_2026-10-13.dsn")
+  (placement
+    (resolution mil 1000)
+    (component u1
+      (place u1 0 0 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution mil 1000)
+    (parser
+      (host_cad "EasyEDA Pro")
+      (host_version "4.1.60")
+    )
+    (library_out 
+      (padstack via0
+        (shape
+          (circle TopLayer 24000 0 0)
+        )
+        (shape
+          (circle BottomLayer 24000 0 0)
+        )
+      )
+    )
+    (network_out 
+      (net B+
+        (wire
+          (path BottomLayer 19740
+            3772650 2869740
+            3772650 2790940
+            3833586 2730004
+            3833586 543170
+            3833585 543169
+            3833585 277674
+            3833586 277673
+            3833586 277672
+            3826936 271022
+            3724070 271022
+            3580314 127266
+            2457406 127266
+            2450093 119953
+            2386907 119953
+            2379594 127266
+            2357406 127266
+            2350093 119953
+            2286907 119953
+            2279594 127266
+            1714391 127266
+            1604032 237625
+            1604032 372972
+            1606650 375590
+          )
+        )
+        (wire
+          (path BottomLayer 19740
+            3693850 2869740
+            3772650 2869740
+          )
+        )
+      )
+    )
+  )
+)
